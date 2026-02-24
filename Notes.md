@@ -20,3 +20,11 @@ workspaces:
             runAsNonRoot: {placeholder} 
             runAsUser: {placeholder} 
             script: | {placeholder}
+
+```
+
+Apply .yaml files to Kubernetes
+
+```sh
+kubectl apply -f .tekton/tasks.yml
+```
